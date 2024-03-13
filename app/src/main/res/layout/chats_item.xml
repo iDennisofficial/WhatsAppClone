@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewChat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginHorizontal="2dp"
+    app:cardBackgroundColor="@color/White">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageChat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginVertical="10dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/nameTxtChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginStart="55dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/messageTxtChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_below="@id/nameTxtChat"/>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

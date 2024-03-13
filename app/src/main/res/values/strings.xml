@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">What\'sAppClone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="a_message">Hello World My name is Mateo</string>
+    <string name="b_message">How are you doing friend</string>
+    <string name="c_message">When are you coming back home</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="status">Status</string>
+    <string name="statusUpperTxt">My Status</string>
+    <string name="statusDownTxt">Yesterday</string>
+    <string name="statusRecent">Recent Updates</string>
+    <string name="statusTime1"> 11 : 35 AM</string>
+    <string name="statusTime2">10 : 40 AM</string>
+    <string name="statusTime3">07 : 27 AM</string>
+    <string name="CallType1"> Received </string>
+    <string name="CallType2"> Missed call</string>
+    <string name="CallType3">Received</string>
+</resources>
